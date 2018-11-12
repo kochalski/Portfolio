@@ -1,0 +1,162 @@
+html,
+body {
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.intro {
+    top: 0;
+    background: #acacac;
+    min-height: 55vh;
+    padding-top: 45vh;
+}
+h1{
+    color: #312c32;
+}
+
+.intro p {
+    color: #98dafc;
+}
+
+nav ul {
+    text-align: right;
+    position: fixed;
+    width: 100%;
+    background-color: #312c32;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 55px;
+    margin-bottom: 15px;
+    margin-top: 25px;
+}
+
+nav ul li a {
+    color: #acacac;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: #98dafc;
+}
+
+.work {
+    padding-top: 60px;
+    margin-top: -60px;
+}
+
+.work .work-header {
+    margin-top: 50px;
+    color: #312c32;
+    font-weight: normal;
+}
+
+.project {
+    text-decoration: none;
+    color: #312c32;
+    display: inline-block;
+    overflow: hidden;
+    border: 1px solid #acacac;
+    height: 170px;
+    width: 280px;
+    margin: 40px 60px;
+}
+
+.project-pic {
+    width: 100%;
+    height: 140px;
+    border-bottom: 1px solid #acacac;
+}
+
+.project-title {
+    font-weight: bold;
+}
+
+.show-all {
+    text-decoration: none;
+    display: block;
+    width: 200px;
+    height: 30px;
+    margin: 20px auto 90px;
+    background: #312c32;
+    color: #98dafc;
+    font-weight: bold;
+    font-size: 1em;
+    border-radius: 4px;
+    cursor: pointer;
+    padding-top: 10px;
+}
+
+.show-all:hover {
+    background: #acacac;
+    color: #312c32;
+}
+
+@media only screen and (max-width: 500px) {
+    nav ul {
+        text-align: center;
+    }
+
+    nav ul li {
+        margin: 20px;
+    }
+
+    .project {
+        margin: 40px 0;
+    }
+}
+.contact {
+    background: #98dafc;
+    padding-bottom: 160px;
+}
+
+.header {
+    padding: 160px 0 110px;
+}
+
+#container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.contact-details {
+    margin: 0px 40px 0px 40px;
+    color: #312c32;
+
+}
+
+.contact-details:hover {
+    color: #acacac;
+}
+
+footer {
+    padding: 20px;
+    background: #312c32;
+    color: #acacac;
+    line-height: 40px;
+}
+
+footer a {
+    color: #acacac;
+}
+
+@media only screen and (max-width: 367px) {
+    /*    #contact{
+      min-height:1100px;
+    } */
+    .contact-details {
+        border: 2px solid #90C695;
+        border-radius: 0;
+        width: 90px;
+        height: 20px;
+        padding: 10px;
+        line-height: normal;
+    }
+}
